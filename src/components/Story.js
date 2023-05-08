@@ -1,6 +1,6 @@
 export default function Story(props) {
     return (
-        <div class="story">
+        <div key={props.index} class="story">
             <div class="imagem">
                 <img src={props.storyUrl} alt={props.storyAlt} />
             </div>
