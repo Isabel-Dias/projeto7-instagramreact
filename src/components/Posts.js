@@ -11,7 +11,7 @@ const library = [
         curtidaUrl: "assets/img/respondeai.svg",
         curtidaAlt: "respondeai",
         curtidaNome: "respondeai",
-        curtidaNum: 101.523
+        curtidaNum: 101523
     },
     {
         postUrl: "assets/img/barked.svg",
@@ -22,7 +22,7 @@ const library = [
         curtidaUrl: "assets/img/adorable_animals.svg",
         curtidaAlt: "adorable_animals",
         curtidaNome: "adorable_animals",
-        curtidaNum: 99.159
+        curtidaNum: 99159
     },
     {
         postUrl: "assets/img/barked.svg",
@@ -33,7 +33,7 @@ const library = [
         curtidaUrl: "assets/img/adorable_animals.svg",
         curtidaAlt: "adorable_animals",
         curtidaNome: "adorable_animals",
-        curtidaNum: 70.450
+        curtidaNum: 70450
     }
 ]
 
