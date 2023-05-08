@@ -17,6 +17,13 @@ export default function Post(props) {
       setHeartColor()
     }
   }
+  function likePostImg(){
+    if (nameHeart === "heart-outline") {
+      setNameHeart("heart")
+      setNumLikes(props.curtidaNum + 1)
+      setHeartColor("red")
+    }
+  }
 
   return (
     <div data-test="post" key={props.index} class="post">
@@ -29,13 +36,12 @@ export default function Post(props) {
       </div>
 
       <div class="conteudo">
-        <img data-test="post-image" onDoubleClick={likePost} src={props.conteudoUrl} alt={props.conteudoAlt} />
+        <img data-test="post-image" onDoubleClick={likePostImg} src={props.conteudoUrl} alt={props.conteudoAlt} />
       </div>
 
       <div class="fundo">
         <div class="acoes">
           <div>
-            
             <ion-icon data-test="like-post" name={nameHeart} class={heartColor} onClick={likePost}></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
